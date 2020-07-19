@@ -6,7 +6,6 @@ const Helpers = use('Helpers')
 const Url = require('url-parse')
 const CLEARDB_DATABASE_URL = new Url(Env.get('CLEARDB_DATABASE_URL'))
 
-CLEARDB_DATABASE_URL ='mysql://b3cc7ebdf9c518:dd9798bc@us-cdbr-east-02.cleardb.com/heroku_f1366934f339311?reconnect=true'
 
 module.exports = {
   /*
