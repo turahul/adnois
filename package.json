@@ -3,6 +3,10 @@
   "version": "4.0.0",
   "description": "Adonisjs boilerplate for API server with pre-configured JWT",
   "main": "index.js",
+   "engines": {
+    "node": "= 4.5.0",
+    "npm": "= 3.9.6"
+  },	
   "scripts": {
     "start": "node server.js",
     "test": "node ace test"
