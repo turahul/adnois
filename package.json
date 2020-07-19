@@ -4,7 +4,7 @@
   "description": "Adonisjs boilerplate for API server with pre-configured JWT",
   "main": "index.js",
    "engines": {
-    "node": "= 8.5.0",
+    "node": "= 4.5.0",
     "npm": "= 3.9.6"
   },	
   "scripts": {
@@ -27,7 +27,8 @@
     "@adonisjs/framework": "^4.0.28",
     "@adonisjs/ignitor": "^1.0.14",
     "@adonisjs/lucid": "^4.0.24",
-    "mysql": "^2.15.0"
+    "mysql": "^2.15.0",
+    "url-parse": "^1.4.7"
   },
   "devDependencies": {},
   "autoload": {
